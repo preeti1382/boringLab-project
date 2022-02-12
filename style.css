@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=DM+Serif+Display:ital@1&family=Outfit:wght@300&display=swap');
+html{
+    margin: 0%;
+    padding: 0%;
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #161b40;
+}
+/* banner */
+#banner{
+    background-image: url(./images/air\ water.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    padding: 20px;
+}
+/* navbar */
+.nav-link {
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+}
+.nav-link:hover{
+    color: #43bee5;
+    font-weight: 700;
+    font-size: 24px;
+}
+.navbar-brand{
+    color: white;
+    font-weight: 600;
+    font-size: 28px;
+}
+.navbar-brand:hover{
+    color: white;
+    font-weight: 600;
+    font-size: 28px;
+}
+/* banner-content */
+.banner-content{
+    padding: 50px;
+}
+.boring-h{
+    color: white;
+    font-family: 'Bungee Inline', cursive;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: left;
+    margin-top: 70px;
+}
+.banner-content-p{
+    text-align: left;
+    margin-top: 30px;
+    color: white;
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+.explore{
+    padding: 10px 30px;
+    border-radius: 12px;
+    background-color: white;
+    color: #161b40;
+    font-weight: 600;
+    font-family: 'Bungee Inline', cursive;
+}
+.banner-img{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    /* padding: 10px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* our-story */
+#our-story{
+    padding: 10px;
+}
+.story-h{
+    color: white;
+    font-family: 'Bungee Inline', cursive;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 30px;   
+}
+.story-p{
+    margin-top: 50px;
+    color: #43bee5;
+    text-align: left;
+    font-size: 22px;
+}
+.story-img{
+    margin-top: 70px;
+    width: 100%;
+    height: 40%;
+    border-radius: 20px;
+}
+
+/* vision */
+#vision , #mission{
+    padding: 20px;
+}
+.vision-div{
+    padding: 20px;
+    background-color:#BDE0EB80;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+.vision-h{
+    color: white;
+    font-family: 'Bungee Inline', cursive;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 30px;   
+}
+.vision-p{
+    margin-top: 50px;
+    color: #161b40;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;   
+}
+
+/* beliefs */
+#beliefs{
+    padding: 20px;
+}
+.belief-h{
+    color: white;
+    font-family: 'Bungee Inline', cursive;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 30px;   
+}
+.belief-p{
+    color: #43bee5;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
+    font-size: 28px;
+}
+
+/* footer */
+.hr{
+    background-color: white;
+    width: 100%;
+    height: 3px;
+}
+#footer{
+    padding: 20px;
+}
+.footer-p{
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+}
+.footer-icon{
+    height: 30px;
+    width: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+/* banner */
+#banner{
+    padding: 10px;
+}
+/* navbar */
+.nav-link {
+    font-size: 18px;
+}
+.nav-link:hover{
+    font-size: 18px;
+}
+.navbar-brand{
+    font-size: 24px;
+}
+.navbar-brand:hover{
+    font-size: 24px;
+}
+/* banner-content */
+.banner-content{
+    padding: 20px;
+}
+.boring-h{
+    font-size: 30px;
+    margin-top: 50px;
+}
+.banner-content-p{
+    margin-top: 20px;
+    font-size: 18px;
+}
+.banner-img{
+    margin-top: 50px;
+    width: 100%;
+    height: 90%;
+    margin-bottom: 50px;
+}
+
+/* our-story */
+.story-h{
+    font-size: 30px;
+}
+.story-p{
+    margin-top: 30px;
+    font-size: 18px;
+}
+.story-img{
+    margin-top: 30px;
+}
+
+/* vision */
+#vision, #mission{
+    padding: 10px;
+}
+.vision-div{
+    padding: 10px;
+    margin-top: 30px;
+}
+.vision-h{
+    font-size: 30px;
+}
+.vision-p{
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+/* beliefs */
+#beliefs{
+    padding: 10px;
+}
+.belief-h{
+    font-size: 30px;
+}
+.belief-p{
+    font-size: 18px;
+}
+
+}
