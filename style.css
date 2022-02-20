@@ -295,6 +295,7 @@ body{
   }
   .roadmap-h1{
     color:white;
+    text-align: center;
     font-size:70px;
     font-weight:600;
     font-family:"Poppins",sans-serif;
@@ -358,8 +359,18 @@ time{
 .designation{
     color: white;
     text-align: center;
+    font-size: 18px;
 }
-
+.member-image{
+    width: 200px;
+    height:200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+}
 /* faq  */
 #faq{
     /* background:linear-gradient(#ffa4d3,#ffa4d3,#ffa4d3,#9be2ff) ; */
@@ -428,7 +439,7 @@ time{
     .story-row{
         padding-top:70px;
     }
-    .story-h1{
+    .story-h1 , .roadmap-h1 , .faq-h1{
         font-size:40px;
     }
     .story-p{
@@ -468,6 +479,27 @@ time{
     			0 0px 10px 10px #28725c,
     			0 0px 15px 15px #0ff; 
     }
-
+    /* timeline */
+    .timeline{
+        position: relative;
+        right:45px;
+    }
+    .timeline ul li {
+        margin-left: 20px;
+    }
+       
+    .timeline ul li div {
+        width: calc(100vw - 91px);
+    }
+       
+    .timeline ul li:nth-child(even) div {
+        left: 45px;
+    }
+       
+  .timeline ul li:nth-child(even) div::before {
+        left: -15px;
+        border-width: 8px 16px 8px 0;
+        border-color: transparent #1d1338 transparent transparent;
+    }
     
 }
